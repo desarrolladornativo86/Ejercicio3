@@ -5,6 +5,7 @@ public class Main {
         System.out.println("Resultado: " + resultado);
         //Resolvemos coche
         Coche miCoche = new Coche();
+        //Llamamos a la clase
         miCoche.AgregarPuerta();
         System.out.println("El total de puertas ahora son: " +miCoche.puertas);
             }
